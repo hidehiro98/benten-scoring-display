@@ -3,6 +3,8 @@
     <img src="./assets/logo.png">
     <hello-world msg='hiaa'></hello-world>
     <p>aaa</p>
+    <router-link to="/top">トップページ</router-link>
+    <router-link to="/football">サッカーページ</router-link>
     <router-view/>
   </div>
 </template>
