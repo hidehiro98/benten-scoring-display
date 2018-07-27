@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello-world msg='hiaa'></hello-world>
-    <p>aaa</p>
+    <hello-world msg='test'></hello-world>
     <router-link to="/top">トップページ</router-link>
     <router-link to="/football">サッカーページ</router-link>
     <router-view/>
