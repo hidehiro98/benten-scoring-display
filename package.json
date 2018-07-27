@@ -4,6 +4,10 @@
   "description": "A Vue.js project",
   "author": "Hidehiro Nagaoka <kuinige@gmail.com>",
   "private": true,
+
+  "deploy": "node ./node_modules/vue-gh-pages/index.js",
+  "homepage": "git@github.com:hidehiro98/benten-scoring-display",
+
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -66,6 +70,7 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
+    "vue-gh-pages": "^1.16.3",
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
